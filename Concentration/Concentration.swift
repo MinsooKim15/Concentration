@@ -14,7 +14,6 @@ struct Concentration
     
     private var indexOfOneAndOnlyFaceUpCard: Int? {
         get{
-            // TODO: Maybe This is the bug
             return cards.indices.filter{cards[$0].isFaceUp}.oneAndOnly
   
 //            var foundIndex:Int?
@@ -59,12 +58,35 @@ struct Concentration
             let card = Card()
             cards += [card, card]
         }
-        // TODO : Shuffle the Cards
+        cards = cards.shuffled()
     }
 }
 
 extension Collection {
     var oneAndOnly : Element? {
         return count == 1 ? first : nil
+    }
+}
+extension MutableCollection {
+    /// Shuffles the contents of this collection.
+    mutating func shuffle() {
+        let c = count
+        guard c > 1 else { return }
+        
+        for (firstUnshuffled, unshuffledCount) in zip(indices, stride(from: c, to: 1, by: -1)) {
+            // Change `Int` in the next line to `IndexDistance` in < Swift 4.1
+            let d: Int = numericCast(arc4random_uniform(numericCast(unshuffledCount)))
+            let i = index(firstUnshuffled, offsetBy: d)
+            swapAt(firstUnshuffled, i)
+        }
+    }
+}
+
+extension Sequence {
+    /// Returns an array with the contents of this sequence, shuffled.
+    func shuffled() -> [Element] {
+        var result = Array(self)
+        result.shuffle()
+        return result
     }
 }
