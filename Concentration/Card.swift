@@ -7,9 +7,11 @@
 //
 
 import Foundation
-struct Card: Hashable
-{
-    var hashVaule: Int {return identifier}
+struct Card: Hashable{
+    var hashValue: Int {
+        return identifier
+    }
+    
     static func ==(lhs: Card, rhs: Card) -> Bool {
         return lhs.identifier == rhs.identifier
     }
@@ -21,11 +23,11 @@ struct Card: Hashable
     private static var identifierFactory = 0
     
     private static func getUniqueIdentifier() -> Int {
-        Card.identifierFactory += 1
-        return Card.identifierFactory
+        identifierFactory += 1
+        return identifierFactory
     }
     
-    init(){
+    init() {
         self.identifier = Card.getUniqueIdentifier()
     }
 }

@@ -14,7 +14,7 @@ struct Concentration
     
     private var indexOfOneAndOnlyFaceUpCard: Int? {
         get{
-            let ch = "hello".oneAndOnly
+            // TODO: Maybe This is the bug
             return cards.indices.filter{cards[$0].isFaceUp}.oneAndOnly
   
 //            var foundIndex:Int?
