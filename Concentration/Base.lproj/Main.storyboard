@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WYH-6s-pdA">
-    <device id="retina5_9" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kgI-PR-g1w">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,23 +16,23 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ConcentrationViewController" customModule="Concentration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flips: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvv-Ik-KNs">
-                                <rect key="frame" x="125.66666666666666" y="699" width="123.66666666666666" height="48"/>
+                                <rect key="frame" x="322" y="896" width="124" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Jz6-nI-qVk">
-                                <rect key="frame" x="16" y="88" width="343" height="229"/>
+                                <rect key="frame" x="16" y="20" width="736" height="229"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="jpu-ZQ-h17">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="71"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="736" height="71"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cO0-XW-y2D">
-                                                <rect key="frame" x="0.0" y="0.0" width="79.666666666666671" height="71"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="178" height="71"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                                 <connections>
@@ -40,7 +40,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6lr-8q-zCd">
-                                                <rect key="frame" x="87.666666666666671" y="0.0" width="80.000000000000014" height="71"/>
+                                                <rect key="frame" x="186" y="0.0" width="178" height="71"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                                 <connections>
@@ -48,7 +48,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wx2-rq-Geb">
-                                                <rect key="frame" x="175.66666666666666" y="0.0" width="79.666666666666657" height="71"/>
+                                                <rect key="frame" x="372" y="0.0" width="178" height="71"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                                 <connections>
@@ -56,7 +56,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yt5-bi-t9A">
-                                                <rect key="frame" x="263.33333333333331" y="0.0" width="79.666666666666686" height="71"/>
+                                                <rect key="frame" x="558" y="0.0" width="178" height="71"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                                 <connections>
@@ -66,10 +66,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="r99-PY-CWB">
-                                        <rect key="frame" x="0.0" y="79" width="343" height="71"/>
+                                        <rect key="frame" x="0.0" y="79" width="736" height="71"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DM7-p5-yQR">
-                                                <rect key="frame" x="0.0" y="0.0" width="79.666666666666671" height="71"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="178" height="71"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                                 <connections>
@@ -77,7 +77,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FD7-wb-olD">
-                                                <rect key="frame" x="87.666666666666671" y="0.0" width="80.000000000000014" height="71"/>
+                                                <rect key="frame" x="186" y="0.0" width="178" height="71"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                                 <connections>
@@ -85,7 +85,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PdT-4V-f8a">
-                                                <rect key="frame" x="175.66666666666666" y="0.0" width="79.666666666666657" height="71"/>
+                                                <rect key="frame" x="372" y="0.0" width="178" height="71"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                                 <connections>
@@ -93,7 +93,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvN-Ji-sDs">
-                                                <rect key="frame" x="263.33333333333331" y="0.0" width="79.666666666666686" height="71"/>
+                                                <rect key="frame" x="558" y="0.0" width="178" height="71"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                                 <connections>
@@ -103,10 +103,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ASX-wW-wd2">
-                                        <rect key="frame" x="0.0" y="158" width="343" height="71"/>
+                                        <rect key="frame" x="0.0" y="158" width="736" height="71"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSC-JY-rVb">
-                                                <rect key="frame" x="0.0" y="0.0" width="79.666666666666671" height="71"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="178" height="71"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                                 <connections>
@@ -114,7 +114,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1b-zN-SHK">
-                                                <rect key="frame" x="87.666666666666671" y="0.0" width="80.000000000000014" height="71"/>
+                                                <rect key="frame" x="186" y="0.0" width="178" height="71"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                                 <connections>
@@ -122,7 +122,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMf-Zo-OPv">
-                                                <rect key="frame" x="175.66666666666666" y="0.0" width="79.666666666666657" height="71"/>
+                                                <rect key="frame" x="372" y="0.0" width="178" height="71"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                                 <connections>
@@ -130,7 +130,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMA-fS-Uxn">
-                                                <rect key="frame" x="263.33333333333331" y="0.0" width="79.666666666666686" height="71"/>
+                                                <rect key="frame" x="558" y="0.0" width="178" height="71"/>
                                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="50"/>
                                                 <connections>
@@ -174,25 +174,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="842.39999999999998" y="114.53201970443351"/>
+            <point key="canvasLocation" x="-658" y="1011"/>
         </scene>
         <!--Concentration Theme Chooser View Controller-->
         <scene sceneID="ulK-oO-YEE">
             <objects>
                 <viewController id="KRB-cb-Rut" customClass="ConcentrationThemeChooserViewController" customModule="Concentration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="off-bz-7dS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="kLK-sZ-ZDn">
-                                <rect key="frame" x="119" y="335" width="137" height="196"/>
+                                <rect key="frame" x="91.5" y="446" width="137" height="196"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwi-um-dEP">
                                         <rect key="frame" x="12" y="0.0" width="113" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="Sports"/>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" identifier="Choose Theme" id="TPl-1Q-n1C"/>
+                                            <action selector="changeTheme:" destination="KRB-cb-Rut" eventType="touchUpInside" id="9X8-QC-9aC"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5q-TL-wj2">
@@ -200,7 +200,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="Faces"/>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" identifier="Choose Theme" id="mY0-bc-6iQ"/>
+                                            <action selector="changeTheme:" destination="KRB-cb-Rut" eventType="touchUpInside" id="6q1-6w-Rl5"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fP-N7-hkE">
@@ -208,7 +208,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <state key="normal" title="Animals"/>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" identifier="Choose Theme" id="p9d-cR-YfF"/>
+                                            <action selector="changeTheme:" destination="KRB-cb-Rut" eventType="touchUpInside" id="Vq0-gL-ZZf"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -222,10 +222,78 @@
                         <viewLayoutGuide key="safeArea" id="INi-SQ-x7K"/>
                     </view>
                     <navigationItem key="navigationItem" id="7G7-th-M25"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="showDetail" identifier="Choose Theme" id="7cf-4r-fsR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GhA-nO-QLe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-124" y="114.53201970443351"/>
+        </scene>
+        <!--Concentration-->
+        <scene sceneID="mH2-xk-Bwh">
+            <objects>
+                <splitViewController id="Jlg-z5-LUc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Concentration" id="VQ0-gM-6Do"/>
+                    <connections>
+                        <segue destination="WYH-6s-pdA" kind="relationship" relationship="masterViewController" id="V4A-LM-Pgk"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="detailViewController" id="A9b-8e-GLv"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="25C-8s-3Up" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2554" y="342"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="Fxq-jw-ro8">
+            <objects>
+                <viewController id="1H3-Bf-Ole" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ag5-Kr-k1Y">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="LyA-FK-Qlw"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="CgI-RZ-A6T"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wd2-OL-W9p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2592" y="1836"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="nzW-mc-yHT">
+            <objects>
+                <viewController id="6U7-QZ-GgJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yBe-sB-ZI7">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="MLe-yM-LF8"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="bDs-63-Kub"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iU4-Ad-ms0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2592" y="1199"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Ot3-dX-hlC">
+            <objects>
+                <tabBarController id="kgI-PR-g1w" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kTj-vB-deQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="6U7-QZ-GgJ" kind="relationship" relationship="viewControllers" id="d2f-q9-pmD"/>
+                        <segue destination="1H3-Bf-Ole" kind="relationship" relationship="viewControllers" id="SUh-RE-hAQ"/>
+                        <segue destination="Jlg-z5-LUc" kind="relationship" relationship="viewControllers" id="70F-1n-opV"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GRJ-4Q-Ldj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3805" y="760"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Fzo-SJ-IC7">
@@ -233,7 +301,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WYH-6s-pdA" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nfn-s4-gHM">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -247,6 +315,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="p9d-cR-YfF"/>
+        <segue reference="7cf-4r-fsR"/>
     </inferredMetricsTieBreakers>
 </document>
